@@ -1,5 +1,12 @@
-<h1>Edit task</h1>
+<div class="container">
+  <h1>Edit task</h1>
 
-<%= render "form", task: @task %>
+  <div>
+    <%= render "form", task: @task %>
+  </div>
 
-<%= link_to  "Back to list", tasks_path %>
+  <div class="back-to-list">
+    <%= link_to  "Back to list", tasks_path %>
+  </div>
+
+</div>
